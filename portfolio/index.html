@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vasanth Krishna Gandham | AI Engineer Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    >
+    <!-- AOS CSS for Animations -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            scroll-behavior: smooth;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .profile-pic {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #007bff;
+        }
+        .section-title {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        .section-title::after {
+            content: '';
+            width: 50px;
+            height: 4px;
+            background: #007bff;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            border-radius: 2px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        .skill-badge {
+            margin: 5px;
+        }
+        .project-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .education-logo {
+            height: 100px;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto 15px auto;
+        }
+        /* Custom Animations */
+        .fade-up {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s ease-out;
+        }
+        .fade-up.aos-animate {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Vasanth Krishna Gandham</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section id="home" class="pt-5 mt-5">
+        <div class="container text-center mt-5" data-aos="fade-up">
+            <img src="img.jpeg" alt="Profile Picture" class="profile-pic">
+            <h1 class="display-4">Vasanth Krishna Gandham</h1>
+            <p class="lead">AI Engineer | Python, FastAPI, AWS, LLMs, Generative AI Agents</p>
+            <a href="#contact" class="btn btn-primary mt-3">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-right">About Me</h2>
+            <p data-aos="fade-up">
+                Artificial Intelligence Developer with substantial expertise in building intelligent agents, integrating large language models (LLMs), and leading full-stack development projects. Highly skilled in AI-driven development, cloud migrations, backend automation, and microservices architecture with a proven ability to optimize system accuracy, performance, and stability.
+            </p>
+            <h3 class="mt-4" data-aos="fade-right">Technical Skills</h3>
+            <div class="d-flex flex-wrap" data-aos="fade-up">
+                <span class="badge badge-primary skill-badge">Python</span>
+                <span class="badge badge-secondary skill-badge">Java</span>
+                <span class="badge badge-success skill-badge">JavaScript</span>
+                <span class="badge badge-danger skill-badge">C#</span>
+                <span class="badge badge-warning skill-badge">C++</span>
+                <span class="badge badge-info skill-badge">Go</span>
+                <span class="badge badge-dark skill-badge">R</span>
+                <span class="badge badge-primary skill-badge">TypeScript</span>
+                <span class="badge badge-secondary skill-badge">Ruby</span>
+                <span class="badge badge-success skill-badge">PyTorch</span>
+                <span class="badge badge-danger skill-badge">Scikit-Learn</span>
+                <span class="badge badge-warning skill-badge">LangChain</span>
+                <span class="badge badge-info skill-badge">OpenCV</span>
+                <span class="badge badge-dark skill-badge">Hugging Face</span>
+                <span class="badge badge-primary skill-badge">Flask</span>
+                <span class="badge badge-secondary skill-badge">Django</span>
+                <span class="badge badge-success skill-badge">Spring Boot</span>
+                <span class="badge badge-danger skill-badge">ASP.NET</span>
+                <span class="badge badge-warning skill-badge">FastAPI</span>
+                <span class="badge badge-info skill-badge">React Native</span>
+                <span class="badge badge-dark skill-badge">Vue</span>
+                <span class="badge badge-primary skill-badge">Node.js</span>
+                <span class="badge badge-secondary skill-badge">Docker</span>
+                <span class="badge badge-success skill-badge">Git</span>
+                <span class="badge badge-danger skill-badge">GCP</span>
+                <span class="badge badge-warning skill-badge">AWS</span>
+                <span class="badge badge-info skill-badge">Azure</span>
+                <span class="badge badge-dark skill-badge">MySQL</span>
+                <span class="badge badge-primary skill-badge">PostgreSQL</span>
+                <span class="badge badge-secondary skill-badge">MongoDB</span>
+                <span class="badge badge-success skill-badge">Oracle</span>
+                <span class="badge badge-danger skill-badge">SQL</span>
+                <span class="badge badge-warning skill-badge">Selenium</span>
+                <span class="badge badge-info skill-badge">Cucumber</span>
+                <span class="badge badge-dark skill-badge">NumPy</span>
+                <span class="badge badge-primary skill-badge">Pandas</span>
+                <span class="badge badge-secondary skill-badge">Matplotlib</span>
+                <span class="badge badge-success skill-badge">RAG</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-right">Projects</h2>
+
+            <!-- Notable Projects -->
+            <h3 class="mt-4" data-aos="fade-up">Notable Projects</h3>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-6 mb-4" data-aos="fade-up">
+                    <div class="card">
+                        <img src="11235_2024_1188_Fig4_HTML.png" class="card-img-top project-img" alt="Dynamic Spectrum Access">
+                        <div class="card-body">
+                            <h5 class="card-title">Dynamic Spectrum Access with Reinforcement Learning</h5>
+                            <p class="card-text">
+                                Led a pioneering project at Indian Institute of Information Technology Guwahati, developing and training reinforcement learning models for dynamic spectrum access. Achieved a 35% improvement in communication reliability by autonomously identifying underutilized spectral bands.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6 mb-4" data-aos="fade-up">
+                    <div class="card">
+                        <img src="un-67.png" class="card-img-top project-img" alt="Emotion Prediction App">
+                        <div class="card-body">
+                            <h5 class="card-title">Emotion Prediction App</h5>
+                            <p class="card-text">
+                                Developed a Flask-based application utilizing Natural Language Processing (NLP) techniques to predict emotions with 92% accuracy, enhancing user interaction and experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-6 mb-4" data-aos="fade-up">
+                    <div class="card">
+                        <img src="Screen-Shot-2013-10-10-at-6.03.16-PM.png" class="card-img-top project-img" alt="Search Engine Development">
+                        <div class="card-body">
+                            <h5 class="card-title">Search Engine Development</h5>
+                            <p class="card-text">
+                                Built a Twitter data indexing search engine using Lucene and BERT, achieving 96% accuracy in search results, facilitating efficient data retrieval and analysis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="col-md-6 mb-4" data-aos="fade-up">
+                    <div class="card">
+                        <img src="jet-437741_640.jpg" class="card-img-top project-img" alt="Flight Delay Prediction System">
+                        <div class="card-body">
+                            <h5 class="card-title">Flight Delay Prediction System</h5>
+                            <p class="card-text">
+                                Designed a system leveraging GeoPandas and spatial technology to accurately predict flight delays, improving operational efficiency and customer satisfaction.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!-- Additional Projects -->
+
+    <!-- Education Section -->
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-right">Education</h2>
+            <div class="row">
+                <!-- Master's Degree -->
+                <div class="col-md-6 mb-4" data-aos="fade-up">
+                    <div class="card">
+                        <img src="UCR_Color.png" class="card-img-top education-logo" alt="University of California Riverside">
+                        <div class="card-body">
+                            <h5 class="card-title">University of California Riverside</h5>
+                            <p class="card-text">
+                                <strong>Master of Science in Computer Engineering</strong><br>
+                                September 2022 – December 2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bachelor's Degree -->
+                <div class="col-md-6 mb-4" data-aos="fade-up">
+                    <div class="card">
+                        <img src="NIT_Durgapur_Logo.svg" class="card-img-top education-logo" alt="National Institute of Technology Durgapur">
+                        <div class="card-body">
+                            <h5 class="card-title">National Institute of Technology Durgapur</h5>
+                            <p class="card-text">
+                                <strong>Bachelor of Engineering in Electronics and Communication</strong><br>
+                                July 2017 – May 2021
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-right">Key Achievements</h2>
+            <ul class="list-group" data-aos="fade-up">
+                <li class="list-group-item">
+                    Successfully integrated and managed APIs of major LLM providers, optimizing AI agent responses by over 40%.
+                </li>
+                <li class="list-group-item">
+                    Led a critical cloud migration, reducing costs by 20% and enhancing deployment efficiency by 50%.
+                </li>
+                <li class="list-group-item">
+                    Enhanced system reliability across multiple projects, significantly reducing errors and boosting performance.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-right">Contact Me</h2>
+            <p data-aos="fade-up">Feel free to reach out for collaborations or just a friendly chat.</p>
+            <ul class="list-group" data-aos="fade-up">
+                <li class="list-group-item"><strong>Email:</strong> <a href="mailto:vasanth.gandham27@gmail.com">vasanth.gandham27@gmail.com</a></li>
+                <li class="list-group-item"><strong>Phone:</strong> +1-929-877-6025</li>
+                <li class="list-group-item"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vasanth-gandham" target="_blank">linkedin.com/in/vasanth-gandham</a></li>
+                <li class="list-group-item"><strong>GitHub:</strong> <a href="https://github.com/vasanth2708" target="_blank">github.com/vasanth2708</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2023 Vasanth Krishna Gandham</p>
+        <p>
+            <a href="mailto:vasanth.gandham27@gmail.com">Email</a> |
+            <a href="https://www.linkedin.com/in/vasanth-gandham" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/vasanth2708" target="_blank">GitHub</a>
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdE9gxSHIyxjPITwWrqWVtXcKqMjqE/xIYvS71H4hcUR6WHsdQmUocdg6MJE5F"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-LtrjvnR4/J56haBw8V50MD6QcqXxn88T8mSmkIYOVgP8PDePAZQ/vRE0KqVv6e4b"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS JS for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
